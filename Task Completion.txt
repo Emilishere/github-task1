@@ -1,0 +1,39 @@
+Microsoft Windows [Version 10.0.22621.2428]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Acer>desktop
+'desktop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer>cd desktop
+
+C:\Users\Acer\Desktop>git clone https://github.com/Emilishere/github-task1.git
+Cloning into 'github-task1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\Acer\Desktop>cd github-task1
+
+C:\Users\Acer\Desktop\github-task1>git add .
+
+C:\Users\Acer\Desktop\github-task1>git commit -u "Second"
+error: pathspec 'Second' did not match any file(s) known to git
+
+C:\Users\Acer\Desktop\github-task1>git commit -m "Second"
+[main 7628728] Second
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Proverb.txt
+
+C:\Users\Acer\Desktop\github-task1>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Emilishere/github-task1.git
+   472138b..7628728  main -> main
+
+C:\Users\Acer\Desktop\github-task1>
